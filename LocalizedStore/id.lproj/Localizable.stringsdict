@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>%lld num-of-day</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@day@</string>
+		<key>day</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>lld</string>
+			<key>zero</key>
+			<string>promo sudah selesai</string>
+			<key>one</key>
+			<string>1 hari promo tersisa</string>
+			<key>two</key>
+			<string>2 hari promo tersisa</string>
+			<key>few</key>
+			<string>dalam masa promo</string>
+			<key>many</key>
+			<string>dalam masa promo</string>
+			<key>other</key>
+			<string>%lld hari promo tersisa</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

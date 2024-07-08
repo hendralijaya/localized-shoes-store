@@ -29,7 +29,7 @@ struct ShoesDetailView: View {
                                 .font(.custom("SF Pro", size: 15, relativeTo: .subheadline))
                             
                             Spacer()
-                            Text("\(shoes.numOfPromoDays) days left")
+                            Text("\(shoes.numOfPromoDays) num-of-day")
                                 .font(.custom("SF Pro", size: 15, relativeTo: .subheadline))
                                 .padding(.trailing, 18)
                         }.padding(8)
