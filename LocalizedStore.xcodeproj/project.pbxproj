@@ -21,6 +21,7 @@
 		4E9556B92C3B67AF009E9955 /* CreditCardOfferView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9556B82C3B67AF009E9955 /* CreditCardOfferView.swift */; };
 		4E9556BB2C3B67B8009E9955 /* SaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9556BA2C3B67B8009E9955 /* SaleView.swift */; };
 		4E9556BD2C3B67EC009E9955 /* Shoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9556BC2C3B67EC009E9955 /* Shoes.swift */; };
+		4ED4C4B32C3F94C000F7F3C7 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 4ED4C4B22C3F94C000F7F3C7 /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		4E9556B82C3B67AF009E9955 /* CreditCardOfferView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCardOfferView.swift; sourceTree = "<group>"; };
 		4E9556BA2C3B67B8009E9955 /* SaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleView.swift; sourceTree = "<group>"; };
 		4E9556BC2C3B67EC009E9955 /* Shoes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shoes.swift; sourceTree = "<group>"; };
+		4ED4C4B22C3F94C000F7F3C7 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				4E9556BE2C3B683C009E9955 /* Model */,
 				4E9556BF2C3B684E009E9955 /* View */,
 				4E95569F2C3B66E3009E9955 /* Assets.xcassets */,
+				4ED4C4B22C3F94C000F7F3C7 /* Localizable.xcstrings */,
 				4E9556A12C3B66E3009E9955 /* LocalizedStore.entitlements */,
 				4E9556A22C3B66E3009E9955 /* Preview Content */,
 			);
@@ -157,6 +160,8 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
+				id,
 			);
 			mainGroup = 4E95568F2C3B66E2009E9955;
 			productRefGroup = 4E9556992C3B66E2009E9955 /* Products */;
@@ -175,6 +180,7 @@
 			files = (
 				4E9556A42C3B66E3009E9955 /* Preview Assets.xcassets in Resources */,
 				4E9556A02C3B66E3009E9955 /* Assets.xcassets in Resources */,
+				4ED4C4B32C3F94C000F7F3C7 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

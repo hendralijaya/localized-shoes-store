@@ -11,7 +11,7 @@ struct CouponsView: View {
     var body: some View {
         VStack{
             HStack{
-                Text("Special Coupons For you")
+                Text("Special Coupons For You")
                     .font(.custom("SF Pro", size: 26, relativeTo: .headline))
                 Spacer()
             }
