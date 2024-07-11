@@ -178,22 +178,6 @@
         }
       }
     },
-    "$%@" : {
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "$%@"
-          }
-        },
-        "id" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Rp%@"
-          }
-        }
-      }
-    },
     "20% off" : {
       "localizations" : {
         "ar" : {
