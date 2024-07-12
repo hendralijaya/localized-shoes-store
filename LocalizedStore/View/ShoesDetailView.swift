@@ -46,10 +46,10 @@ struct ShoesDetailView: View {
                         .font(.title)
                     
                     HStack{
-                        Text(shoes.price.formatted(.currency(code: "USD")))
+                        Text(shoes.price.formatted())
                             .font(.custom("SF Pro", size: 17, relativeTo: .subheadline))
                             .padding(.top, 8)
-                        Text((shoes.price * 1.2).formatted(.currency(code: "USD")))
+                        Text("USD" + (shoes.price * 1.2).formatted())
                             .strikethrough(true, color: .gray)
                             .font(.custom("SF Pro", size: 17, relativeTo: .subheadline))
                             .foregroundColor(.gray)
