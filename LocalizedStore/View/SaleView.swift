@@ -47,7 +47,7 @@ struct SaleView: View {
                                             HStack{
                                                 Image(systemName: "tag")
                                                     .foregroundColor(.red)
-                                                Text("$\(String(format: "%.2f", shoes.price))")
+                                                Text(shoes.price.formatted(.currency(code: "USD")))
                                                     .font(.subheadline)
                                                     .foregroundColor(.red)
                                             }
