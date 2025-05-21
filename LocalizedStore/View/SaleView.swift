@@ -10,8 +10,8 @@ import SwiftUI
 struct SaleView: View {
     // Sample data
     let shoeses = [
-        Shoes(type: "Running Shoes", series: "Shoes 1", brand: "Brand 1", price: 19.99, image: "shoes1", description: "This is shoes 1 description.", availableSize: ["6", "6.5", "7", "7.5", "8"], numOfPromoDays: 1, numOfItemLeft: 2),
-        Shoes(type: "Basket Ball Shoes", series: "Shoes 2", brand: "Brand 2", price: 24.99, image: "shoes2", description: "This is shoes 2 description.", availableSize: ["6", "6.5", "7", "7.5", "8"], numOfPromoDays: 2, numOfItemLeft: 3),
+        Shoes(type: "Running Shoes", series: "Shoes 1", brand: "Brand 1", price: 19.99, image: "shoes1", description: String(localized: "This is shoes 1 description."), availableSize: ["6", "6.5", "7", "7.5", "8"], numOfPromoDays: 1, numOfItemLeft: 2),
+        Shoes(type: "Basket Ball Shoes", series: "Shoes 2", brand: "Brand 2", price: 24.99, image: "shoes2", description: String(localized: "This is shoes 2 description."), availableSize: ["6", "6.5", "7", "7.5", "8"], numOfPromoDays: 2, numOfItemLeft: 3),
         Shoes(type: "Badminton Shoes", series: "Shoes 3", brand: "Brand 3", price: 14.99, image: "shoes3", description: "This is shoes 3 description.", availableSize: ["6", "6.5", "7", "7.5", "8"], numOfPromoDays: 3, numOfItemLeft: 1),
     ]
     var body: some View {

@@ -2,7 +2,10 @@
   "sourceLanguage" : "en",
   "strings" : {
     "%lld days left" : {
+<<<<<<< HEAD
       "extractionState" : "manual",
+=======
+>>>>>>> fd81e6c (fix)
       "localizations" : {
         "ar" : {
           "variations" : {
@@ -57,14 +60,22 @@
               },
               "other" : {
                 "stringUnit" : {
+<<<<<<< HEAD
                   "state" : "translated",
+=======
+                  "state" : "new",
+>>>>>>> fd81e6c (fix)
                   "value" : "%lld days left"
                 }
               },
               "zero" : {
                 "stringUnit" : {
                   "state" : "translated",
+<<<<<<< HEAD
                   "value" : "Promo has ended"
+=======
+                  "value" : "the promo has ended"
+>>>>>>> fd81e6c (fix)
                 }
               }
             }
@@ -73,16 +84,33 @@
         "id" : {
           "variations" : {
             "plural" : {
+<<<<<<< HEAD
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
                   "value" : "%lld hari promo tersisa"
+=======
+              "one" : {
+                "stringUnit" : {
+                  "state" : "new",
+                  "value" : ""
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld hari tersisa"
+>>>>>>> fd81e6c (fix)
                 }
               },
               "zero" : {
                 "stringUnit" : {
                   "state" : "translated",
+<<<<<<< HEAD
                   "value" : "promo sudah selesai"
+=======
+                  "value" : "Promo sudah berakhir"
+>>>>>>> fd81e6c (fix)
                 }
               }
             }
@@ -139,7 +167,11 @@
             "plural" : {
               "one" : {
                 "stringUnit" : {
+<<<<<<< HEAD
                   "state" : "translated",
+=======
+                  "state" : "needs_review",
+>>>>>>> fd81e6c (fix)
                   "value" : "%lld item left"
                 }
               },
@@ -152,7 +184,11 @@
               "zero" : {
                 "stringUnit" : {
                   "state" : "translated",
+<<<<<<< HEAD
                   "value" : "no item"
+=======
+                  "value" : "no item is available"
+>>>>>>> fd81e6c (fix)
                 }
               }
             }
@@ -164,13 +200,21 @@
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
+<<<<<<< HEAD
                   "value" : "%lld item tersedia"
+=======
+                  "value" : "%lld unit tersisa"
+>>>>>>> fd81e6c (fix)
                 }
               },
               "zero" : {
                 "stringUnit" : {
                   "state" : "translated",
+<<<<<<< HEAD
                   "value" : "item tidak tersedia"
+=======
+                  "value" : "Tidak ada item tersedia"
+>>>>>>> fd81e6c (fix)
                 }
               }
             }
@@ -178,6 +222,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "20% off" : {
       "localizations" : {
         "ar" : {
@@ -196,10 +241,19 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Diskon 20%"
+=======
+    "$%@" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rp"
+>>>>>>> fd81e6c (fix)
           }
         }
       }
     },
+<<<<<<< HEAD
     "Account" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -215,6 +269,13 @@
             "value" : "Account"
           }
         },
+=======
+    "20% off" : {
+
+    },
+    "Account" : {
+      "localizations" : {
+>>>>>>> fd81e6c (fix)
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -224,6 +285,7 @@
       }
     },
     "Add to Bag" : {
+<<<<<<< HEAD
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -260,6 +322,12 @@
             "value" : "Category"
           }
         },
+=======
+
+    },
+    "Category" : {
+      "localizations" : {
+>>>>>>> fd81e6c (fix)
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -269,6 +337,7 @@
       }
     },
     "Credit Card Offers" : {
+<<<<<<< HEAD
       "extractionState" : "manual",
       "localizations" : {
         "ar" : {
@@ -283,6 +352,9 @@
             "value" : "Credit Card Offers"
           }
         },
+=======
+      "localizations" : {
+>>>>>>> fd81e6c (fix)
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -291,6 +363,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "Lebaran Sale" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -306,6 +379,13 @@
             "value" : "Lebaran Sale"
           }
         },
+=======
+    "Key" : {
+      "extractionState" : "manual"
+    },
+    "Lebaran Sale" : {
+      "localizations" : {
+>>>>>>> fd81e6c (fix)
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -316,6 +396,7 @@
     },
     "Lebaran Sale!" : {
       "localizations" : {
+<<<<<<< HEAD
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
@@ -328,6 +409,8 @@
             "value" : "Lebaran Sale!"
           }
         },
+=======
+>>>>>>> fd81e6c (fix)
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -336,6 +419,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "Offers" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -351,6 +435,13 @@
             "value" : "Offers"
           }
         },
+=======
+    "None" : {
+
+    },
+    "Offers" : {
+      "localizations" : {
+>>>>>>> fd81e6c (fix)
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -360,6 +451,7 @@
       }
     },
     "See All" : {
+<<<<<<< HEAD
       "extractionState" : "manual",
       "localizations" : {
         "ar" : {
@@ -378,12 +470,20 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lihat semua"
+=======
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lihat Semua"
+>>>>>>> fd81e6c (fix)
           }
         }
       }
     },
     "Size" : {
       "localizations" : {
+<<<<<<< HEAD
         "ar" : {
           "stringUnit" : {
             "state" : "translated",
@@ -396,6 +496,8 @@
             "value" : "Size"
           }
         },
+=======
+>>>>>>> fd81e6c (fix)
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -404,6 +506,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "Special Coupons For You" : {
       "extractionState" : "manual",
       "localizations" : {
@@ -423,10 +526,19 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kupon Special Buat Kamu"
+=======
+    "Special Coupons For you" : {
+      "localizations" : {
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kupon Spesial Buat Kamu"
+>>>>>>> fd81e6c (fix)
           }
         }
       }
     },
+<<<<<<< HEAD
     "What is your size?" : {
       "localizations" : {
         "ar" : {
@@ -441,6 +553,16 @@
             "value" : "What is your size?"
           }
         },
+=======
+    "This is shoes 1 description." : {
+
+    },
+    "This is shoes 2 description." : {
+
+    },
+    "What is your size?" : {
+      "localizations" : {
+>>>>>>> fd81e6c (fix)
         "id" : {
           "stringUnit" : {
             "state" : "translated",
@@ -450,6 +572,7 @@
       }
     },
     "Wishlist" : {
+<<<<<<< HEAD
       "extractionState" : "manual",
       "localizations" : {
         "ar" : {
@@ -464,6 +587,9 @@
             "value" : "Wishlist"
           }
         },
+=======
+      "localizations" : {
+>>>>>>> fd81e6c (fix)
         "id" : {
           "stringUnit" : {
             "state" : "translated",

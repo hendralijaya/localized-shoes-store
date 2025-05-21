@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23F13C0C2C45194000FA3561 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 23F13C0B2C45194000FA3561 /* Localizable.xcstrings */; };
 		4E95569C2C3B66E2009E9955 /* LocalizedStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E95569B2C3B66E2009E9955 /* LocalizedStoreApp.swift */; };
 		4E95569E2C3B66E2009E9955 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E95569D2C3B66E2009E9955 /* ContentView.swift */; };
 		4E9556A02C3B66E3009E9955 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E95569F2C3B66E3009E9955 /* Assets.xcassets */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23F13C0B2C45194000FA3561 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		4E9556982C3B66E2009E9955 /* LocalizedStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalizedStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E95569B2C3B66E2009E9955 /* LocalizedStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedStoreApp.swift; sourceTree = "<group>"; };
 		4E95569D2C3B66E2009E9955 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				4ED4C4B22C3F94C000F7F3C7 /* Localizable.xcstrings */,
 				4E9556A12C3B66E3009E9955 /* LocalizedStore.entitlements */,
 				4E9556A22C3B66E3009E9955 /* Preview Content */,
+				23F13C0B2C45194000FA3561 /* Localizable.xcstrings */,
 			);
 			path = LocalizedStore;
 			sourceTree = "<group>";
@@ -160,8 +163,13 @@
 			knownRegions = (
 				en,
 				Base,
+<<<<<<< HEAD
 				ar,
 				id,
+=======
+				id,
+				ar,
+>>>>>>> fd81e6c (fix)
 			);
 			mainGroup = 4E95568F2C3B66E2009E9955;
 			productRefGroup = 4E9556992C3B66E2009E9955 /* Products */;
@@ -180,7 +188,11 @@
 			files = (
 				4E9556A42C3B66E3009E9955 /* Preview Assets.xcassets in Resources */,
 				4E9556A02C3B66E3009E9955 /* Assets.xcassets in Resources */,
+<<<<<<< HEAD
 				4ED4C4B32C3F94C000F7F3C7 /* Localizable.xcstrings in Resources */,
+=======
+				23F13C0C2C45194000FA3561 /* Localizable.xcstrings in Resources */,
+>>>>>>> fd81e6c (fix)
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,7 +344,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LocalizedStore/Preview Content\"";
-				DEVELOPMENT_TEAM = JSB449F8V6;
+				DEVELOPMENT_TEAM = BHS88Y2WBP;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -371,7 +383,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"LocalizedStore/Preview Content\"";
-				DEVELOPMENT_TEAM = JSB449F8V6;
+				DEVELOPMENT_TEAM = BHS88Y2WBP;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
